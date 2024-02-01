@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.bible-view-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* DualLanguageView.css */
+
+.dual-language-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.language-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #311;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.language-panel h2 {
+  color: #333;
+  font-size: 18px;
+}
+
+.language-panel p {
+  color: #555;
+  font-size: 14px;
+}
