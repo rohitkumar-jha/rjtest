@@ -5,6 +5,7 @@ import Home from "./containers/Home";
 import Orderzz from "./containers/Orderzz";
 import EducationPlus from "./containers/EducationPlus";
 import MathsPi from "./containers/MathsPi";
+import RJGallery from "./containers/RJGallery";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/bible-policy" element={<BibleView />} />
         <Route path="/orderzz-policy" element={<Orderzz />} />
         <Route path="/mathspi-policy" element={<MathsPi />} />
+        <Route path="/rj-gallery-policy" element={<RJGallery />} />
       </Routes>
     </Router>
   );
