@@ -6,6 +6,7 @@ import Orderzz from "./containers/Orderzz";
 import EducationPlus from "./containers/EducationPlus";
 import MathsPi from "./containers/MathsPi";
 import RJGallery from "./containers/RJGallery";
+import RJMovies from "./containers/RJMovies";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/orderzz-policy" element={<Orderzz />} />
         <Route path="/mathspi-policy" element={<MathsPi />} />
         <Route path="/rj-gallery-policy" element={<RJGallery />} />
+        <Route path="/rj-movies" element={<RJMovies />} />
       </Routes>
     </Router>
   );
